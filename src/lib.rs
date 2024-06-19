@@ -134,10 +134,7 @@
 //!
 //! You can then run this with:
 //! ```text
-//! RUST_LOG=frameless=trace \
-//! 	pba-omni-node \
-//! 	--chain chain_spec.json \
-//! 	--tmp
+//! RUST_LOG=frameless=trace pba-omni-node --chain chain_spec.json --tmp
 //! ```
 //!
 //! Notice how you can change the `value: 42` part and re-launch the chain. Of course, the initial
